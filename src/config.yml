@@ -10,6 +10,12 @@ forums: forumsgoeshere.boards.net
 
 # Main server twitter handle
 twitter: twittergoeshere
+
+# Main server discord 
+discord: https://google.com
+
+# Main server github
+github:
  
 filter:
   # Swear words to be filtered in /filter
@@ -20,6 +26,7 @@ filter:
    - dick
    - hell
    - vagina
+   - cunt
    - pussy
 
 # TODO: Add more permissions
