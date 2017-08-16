@@ -103,3 +103,7 @@ commands:
         description: Use the Owner chat.
         usage: /<command> [message]
         aliases: [oc, ochat]
+     serverlinks:
+        description: Displays the server links.
+        usage: </command> <discord | github | forums>
+        aliases: [sl,forums,discord,github,website]
