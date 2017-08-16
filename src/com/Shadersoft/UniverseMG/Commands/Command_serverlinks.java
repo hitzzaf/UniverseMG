@@ -20,24 +20,30 @@ public class Command_serverlinks extends BukkitCommand
         if ("discord".equals(args[0])) 
         {
             
-        msg(ChatColor.GREEN + "The server discord is: " + ChatColor.BLUE + "http://discord.gg/e4syjyj");    
+        msg(ChatColor.GREEN + "The server discord is: " + ChatColor.BLUE + plugin.config.getString("discord"));    
         
         }
         
         if ("forums".equals(args[0])) 
         {
             
-        msg(ChatColor.GREEN + "The server forums are: " + ChatColor.BLUE + "http://groundium.boards.net");    
+        msg(ChatColor.GREEN + "The server forums are: " + ChatColor.BLUE + plugin.config.getString("forums"));    
         
         }
         
         if ("github".equals(args[0])) 
         {
             
-        msg(ChatColor.GREEN + "The server github is: " + ChatColor.BLUE + "https://github.com/Shadersoft/UniverseMG");    
+        msg(ChatColor.GREEN + "The server github is: " + ChatColor.BLUE + plugin.config.getString("github"));    
         
         }
+        if ("twitter".equals(args[0))
+        {
         
+        msg(ChatColor.GREEN + "The server github is: " + ChatColor.BLUE + plugin.config.getString("twitter));
+        
+        }
+       
         return true;
         
     }
