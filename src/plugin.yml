@@ -106,4 +106,4 @@ commands:
      serverlinks:
         description: Displays the server links.
         usage: </command> <discord | github | forums | twitter>
-        aliases: [sl,forums,discord,github,website]
+        aliases: [sl,forums,discord,github,website,twitter]
