@@ -105,5 +105,5 @@ commands:
         aliases: [oc, ochat]
      serverlinks:
         description: Displays the server links.
-        usage: </command> <discord | github | forums>
+        usage: </command> <discord | github | forums | twitter>
         aliases: [sl,forums,discord,github,website]
