@@ -1,4 +1,4 @@
-package com.hailey.general.commands;
+package com.Shadersoft.UniverseMG.Commands;
 
 import net.pravian.bukkitlib.command.BukkitCommand;
 import org.bukkit.ChatColor;
